@@ -38,6 +38,23 @@ int main() {
    } else if (variables.sum){
 
    }
+    
+      // Eine Kommazahl
+
+   variables.sum_two = variables.sum_two * 10;
+
+   if(variables.sum_two == (int)variables.sum_two) {
+     printf("Summe mit einer Nachkommastelle: %.1lf", variables.sum);
+   }
+
+
+   variables.sum_three = variables.sum_three * 100;
+
+    if(variables.sum_two == (int)variables.sum_two) {
+     printf("Summe mit einer Nachkommastelle: %.2lf", variables.sum);
+   } else {
+     printf("Summe mit einer Nachkommastelle: %.3lf", variables.sum);
+   }
 
     return 0;
 }
